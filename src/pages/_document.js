@@ -13,9 +13,6 @@ const PageStyle = createGlobalStyle`
     background: ${colors.get('lightGrey')}
     font-family: sans-serif;
   }
-  ul li, ol li {
-    list-style-type: none;
-  }
 `;
 
 class CustomDocument extends Document {
