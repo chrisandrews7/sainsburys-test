@@ -32,7 +32,8 @@ npm test
 ```
 
 ## Todo
-With time constraints, the current codebase is basic. As the app scales the following would become applicable:
+With the time constraints, the current codebase is basic.  
+As the app scales the following would become applicable:
 
 - [x] Category product listing
 - [x] Atomic design
