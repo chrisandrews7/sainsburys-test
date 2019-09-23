@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import CategoryPage from '../[id]';
-import Header from '../../../components/atoms/Header';
-import ProductList from '../../../components/organisms/ProductList';
+import Header from '../../../atoms/Header';
+import ProductList from '../../../organisms/ProductList';
 
 test('the header is rendered with the category name', () => {
   const output = shallow(<CategoryPage categoryName={'Tablets'} />);

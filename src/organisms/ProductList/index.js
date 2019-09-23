@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import media from "styled-media-query";
-
+import media from 'styled-media-query';
 import Product from '../../molecules/Product';
 
 const List = styled.ul`
@@ -15,7 +14,6 @@ const List = styled.ul`
 `;
 
 const ListItem  = styled.li`
-  list-style: none;
   margin: 0 1.2rem 1.2rem 0;
 
   ${media.lessThan('small')`

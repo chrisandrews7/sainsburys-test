@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import colors from '../../../theme/colors';
+import colors from '../../theme/colors';
 
 const SmallTitle  = styled.span`
   color: ${colors.get('mediumGrey')};
