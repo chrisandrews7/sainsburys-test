@@ -1,5 +1,6 @@
 
 import { createGlobalStyle } from 'styled-components';
+import { Normalize } from 'styled-normalize';
 import colors from '../../theme/colors';
 import Header from '../../components/atoms/Header';
 import SecondaryHeader from '../../components/atoms/SecondaryHeader';
@@ -15,6 +16,7 @@ const PageStyle = createGlobalStyle`
 
 function CategoryPage({ categoryName, products = [] }) {
   return <div>
+    <Normalize />
     <PageStyle />
 
     <Header>
